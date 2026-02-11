@@ -63,12 +63,12 @@ export function HeroSection() {
                 <div>
                   <span className="text-primary-400">"seller_name"</span>
                   <span className="text-white/60">: </span>
-                  <span className="text-emerald-400">"Bhavani Auto Parts"</span>
+                  <span className="text-emerald-400">"XXXXXXXX"</span>
                 </div>
                 <div>
                   <span className="text-primary-400">"seller_gstin"</span>
                   <span className="text-white/60">: </span>
-                  <span className="text-emerald-400">"33AABCB1234F1Z5"</span>
+                  <span className="text-emerald-400">"3XXXXXXXXX5"</span>
                 </div>
                 <div>
                   <span className="text-primary-400">"total_amount"</span>
