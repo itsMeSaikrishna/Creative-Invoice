@@ -1,0 +1,33 @@
+{
+  "seller_name": "Bhavani Auto Distributors",
+  "seller_gstin": "32AAXFB6381L1ZU",
+  "buyer_gstin": "32BSBPA3464Q1ZQ",
+  "bill_no": "EBW2526006189",
+  "bill_date": "2025-09-01",
+  "tax_breakup": [
+    {
+      "rate": 18,
+      "taxable_value": 3587.04,
+      "cgst_amount": 322.83,
+      "sgst_amount": 322.83,
+      "igst_amount": 0,
+      "total_with_tax": 4232.70
+    },
+    {
+      "rate": 28,
+      "taxable_value": 1127.57,
+      "cgst_amount": 157.87,
+      "sgst_amount": 157.87,
+      "igst_amount": 0,
+      "total_with_tax": 1443.31
+    }
+  ],
+  "total_taxable_value": 4714.61,
+  "total_cgst": 480.70,
+  "total_sgst": 480.70,
+  "total_igst": 0,
+  "total_quantity": 59,
+  "total_amount": 5676.00,
+  "validation_passed": true,
+  "validation_errors": []
+}

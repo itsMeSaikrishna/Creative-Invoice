@@ -1,0 +1,25 @@
+{
+  "seller_name": "Brothers Battery Agencies",
+  "seller_gstin": "32ALBPD9642B1ZP",
+  "buyer_gstin": "32BSBPA3464Q1ZQ",
+  "bill_no": "B2B-929/25-26",
+  "bill_date": "2025-08-21",
+  "tax_breakup": [
+    {
+      "rate": 18,
+      "taxable_value": 5633.83,
+      "cgst_amount": 507.05,
+      "sgst_amount": 507.05,
+      "igst_amount": 0,
+      "total_with_tax": 6647.93
+    }
+  ],
+  "total_taxable_value": 5633.83,
+  "total_cgst": 507.05,
+  "total_sgst": 507.05,
+  "total_igst": 0,
+  "total_quantity": 49,
+  "total_amount": 6648.00,
+  "validation_passed": true,
+  "validation_errors": []
+}

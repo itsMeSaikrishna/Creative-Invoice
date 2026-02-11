@@ -1,0 +1,25 @@
+{
+  "seller_name": "Spareway Associates",
+  "seller_gstin": "32AEQFS6273P1Z5",
+  "buyer_gstin": "32BSBPA3464Q1ZQ",
+  "bill_no": "1766",
+  "bill_date": "2025-09-10",
+  "tax_breakup": [
+    {
+      "rate": 18,
+      "taxable_value": 1228.81,
+      "cgst_amount": 110.59,
+      "sgst_amount": 110.59,
+      "igst_amount": 0,
+      "total_with_tax": 1449.99
+    }
+  ],
+  "total_taxable_value": 1228.81,
+  "total_cgst": 110.59,
+  "total_sgst": 110.59,
+  "total_igst": 0,
+  "total_quantity": 10,
+  "total_amount": 1450.00,
+  "validation_passed": true,
+  "validation_errors": []
+}
