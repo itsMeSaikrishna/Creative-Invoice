@@ -8,7 +8,8 @@ class Settings(BaseSettings):
     google_project_id: str = ""
     google_location: str = "us"
     google_processor_id: str = ""
-    google_application_credentials: str = ""
+    google_application_credentials: str = ""  # file path (local dev)
+    google_credentials_json: str = ""  # JSON string (cloud deployment)
 
     # Groq LLM
     groq_api_key: str = ""
@@ -37,6 +38,13 @@ class Settings(BaseSettings):
 @lru_cache
 def get_settings() -> Settings:
     settings = Settings()
-    if settings.google_application_credentials:
+    if settings.google_credentials_json:
+        # Cloud deployment: write JSON string to a temp file
+        import tempfile
+        credentials_path = os.path.join(tempfile.gettempdir(), "gcp-credentials.json")
+        with open(credentials_path, "w") as f:
+            f.write(settings.google_credentials_json)
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
+    elif settings.google_application_credentials:
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = settings.google_application_credentials
     return settings
